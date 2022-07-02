@@ -1,0 +1,88 @@
+.carousel__contenedor__css {
+    position: relative;
+}
+.carousel__anterior__css {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px) !important;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    z-index: 1;
+    left: -5;
+    margin-right: 5;
+}
+
+.carousel__anterior__css_2 {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px) !important;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    opacity: 50%;
+    z-index: 1;
+    left: -5;
+    margin-right: 5;
+}
+
+.carousel__siguiente__css {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px) !important;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    opacity: 50%; 
+    z-index: 1;
+    right: 10;
+    margin-left: 5px;
+}
+
+.carousel__siguiente__css_2 {
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    top: calc(50% - 35px) !important;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    opacity: 50%; 
+    z-index: 1;
+    right: 10;
+    margin-left: 5px;
+}
+.carousel__anterior__css:hover,
+.carousel__siguiente__css:hover {
+    opacity: 100%;
+}
+
+.carousel__lista__css {
+    overflow: hidden;
+}
+
+.carousel__elemento__css {
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.carousel__indicadores__css .glider-dot:hover {
+    opacity: .5;
+}
